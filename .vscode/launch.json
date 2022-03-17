@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "type": "aws-sam",
+      "request": "direct-invoke",
+      "name": "API serverlessrepo-cv-microse-microservicehttpendpoint-Uc94LrMgZ2af:microservicehttpendpoint",
+      "invokeTarget": {
+        "target": "api",
+        "templatePath": "${workspaceFolder}/serverlessrepo-cv-microse-microservicehttpendpoint-Uc94LrMgZ2af/template.yaml",
+        "logicalId": "microservicehttpendpoint"
+      },
+      "api": {
+        "path": "/MyResource",
+        "httpMethod": "ANY",
+        "payload": {
+          "json": {}
+        }
+      }
+    },
+    {
+      "type": "aws-sam",
+      "request": "direct-invoke",
+      "name": "serverlessrepo-cv-microse-microservicehttpendpoint-Uc94LrMgZ2af:index.handler (nodejs12.x)",
+      "invokeTarget": {
+        "target": "code",
+        "projectRoot": "${workspaceFolder}/serverlessrepo-cv-microse-microservicehttpendpoint-Uc94LrMgZ2af",
+        "lambdaHandler": "index.handler"
+      },
+      "lambda": {
+        "runtime": "nodejs12.x",
+        "payload": {},
+        "environmentVariables": {}
+      }
+    }
+  ]
+}

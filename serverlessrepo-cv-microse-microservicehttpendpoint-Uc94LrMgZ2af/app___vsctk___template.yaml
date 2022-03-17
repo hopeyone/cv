@@ -1,0 +1,10 @@
+Resources:
+  serverlessrepocvmicrosemicroservicehttpendpointUc94LrMgZ2af:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: index.handler
+      CodeUri: >-
+        /Users/chris/projects/cv/serverlessrepo-cv-microse-microservicehttpendpoint-Uc94LrMgZ2af
+      Runtime: nodejs12.x
+      Environment:
+        Variables: {}

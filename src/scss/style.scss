@@ -1,5 +1,5 @@
-$primary: #3292A6; 
-$primary-overlay: rgba(50,146,166,0.8);
+$primary: #3292a6;
+$primary-overlay: rgba(50, 146, 166, 0.8);
 
 body {
   margin-top: 105px;
@@ -13,21 +13,6 @@ body {
   .nav-item {
     font-size: 1.4rem;
     padding-right: 1.4rem;
-  }
-}
-
-#showcase {
-  position: relative;
-  background: url('../img/mountains.jpg');
-  min-height: 600px;
-
-  .primary-overlay {
-    background: $primary-overlay;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
   }
 }
 
@@ -48,7 +33,7 @@ body {
 
     .fab {
       color: #fff;
-    }  
+    }
   }
 }
 
@@ -63,4 +48,51 @@ body {
   .mb-resp {
     margin-bottom: 1rem;
   }
+}
+
+.carousel-item {
+  height: 600px;
+}
+
+.carousel-image-1 {
+  background: url("../img/languages.jpg");
+  background-size: cover;
+}
+.carousel-image-2 {
+  background: url("../img/platforms.jpg");
+  background-size: cover;
+}
+.carousel-image-3 {
+  background: url("../img/frameworks.jpg");
+  background-size: cover;
+}
+.carousel-image-4 {
+  background: url("../img/tools.jpg");
+  background-size: cover;
+}
+
+#showcase .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.white-backgroud {
+  background-color: #fff;
+}
+
+.chcv-icon {
+  font-size: 1.5cm;
+  background-color: rgba(45, 98, 109, 0.8);
+  border-radius: 0.1cm;
+  
+}
+
+.chcv-idv {
+  text-align: center;
+  
+  
 }

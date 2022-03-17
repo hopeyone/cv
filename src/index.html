@@ -7,9 +7,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
     integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>Bootstrap Theme</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+  <title>Chris Hope</title>
 </head>
 
 <body id="home" data-spy="scroll" data-trget="#main-nav">
@@ -17,7 +19,7 @@
     <div class="container">
       <a href="#home" class="navbar-brand">
         <img src="img/mlogo.png" width="50" height="50" alt="">
-        <h3 class="d-inline align-middle">Mizuxe</h3>
+        <h3 class="d-inline align-middle">Chris Hope</h3>
       </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
@@ -42,24 +44,92 @@
   </nav>
 
   <!-- SHOWCASE -->
-  <section id="showcase" class="py-5">
-    <div class="primary-overlay text-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 text center">
-            <h1 class="display-2 mt-5 pt-5">
-              Do What You Dream Of...
-            </h1>
-            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, labore?</p>
-            <a href="#" class="btn btn-outline-secondary btn-lg text-white">
-              <i class="fas fa-arrow-right"></i> Read More
-            </a>
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=active></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="dark-overlay"></div>
+          <div class="carousel-caption mb-5">
+            <div class="container py-4">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="row px-2">
+                    <div class="col chcv-idv">
+                      <i class="devicon-java-plain chcv-icon"></i>
+                    </div>
+                    <div class="col chcv-idv">
+                      <i class="devicon-typescript-plain chcv-icon"></i>
+                    </div>
+                    <div class="col chcv-idv">
+                      <i class="devicon-javascript-plain chcv-icon"></i>
+                    </div>
+                    <div class="col chcv-idv">
+                      <i class="devicon-cplusplus-plain chcv-icon"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="row">
+                    <div class="col chcv-idv">
+                      <i class="devicon-python-plain chcv-icon"></i>
+                    </div>
+                    <div class="col chcv-idv">
+                      <i class="devicon-confluence-original-wordmark colored chcv-icon"></i>
+                    </div>
+                    <div class="col chcv-idv">
+                      <i class="devicon-jira-plain-wordmark colored chcv-icon"></i>
+                    </div>
+                    <div class="col chcv-idv">
+                      <i class="devicon-bitbucket-original-wordmark colored chcv-icon"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h1 class="display-3 d-none d-sm-block">Languages</h1>
           </div>
-          <div class="col-lg-6">
-            <img src="img/book.png" alt="" class="img-fluid d-none d-lg-block">
+        </div>
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block mb-5">
+              <h1 class="display-3">Platforms</h1>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Frameworks</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita beatae hic dolore
+                distinctio minima! Voluptatem a itaque quos nobis repudiandae.</p>
+              <a href="#" class="btn btn-success btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-image-4">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Tools</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita beatae hic dolore
+                distinctio minima! Voluptatem a itaque quos nobis repudiandae.</p>
+              <a href="#" class="btn btn-success btn-lg">Learn More</a>
+            </div>
           </div>
         </div>
       </div>
+      <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#myCarousel" class="carousel-control-next" data-slide=next>
+        <span class="carousel-control-next-icon"></span>
+      </a>
     </div>
   </section>
 
@@ -122,71 +192,9 @@
     </div>
   </section>
 
-  <!-- ABOUT/ WHY SECTION -->
+  <!-- Experience -->
   <section id="about" class="py-5 text-center bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="info-header mb-5">
-            <h1 class="text-primary pb-3">
-              Why This Book?
-            </h1>
-            <p class="lead pb-3">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto id unde ullam! Necessitatibus, a qui!
-            </p>
-          </div>
-          <!-- ACCORDION -->
-          <div id="accordion">
-            <div class="card">
-              <div class="card-header">
-                <h5 class="mb-0">
-                  <div href="#collapse1" data-toggle="collapse" data-parent="#accordion">
-                    <i class="fas fa-arrow-circle-down"></i> Get Inspired
-                </h5>
-              </div>
-              <div id="collapse1" class="collapse show">
-                <div class="card-body">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem eum quis minima nisi tempora? Dicta
-                  aut et ut illum ea! Atque sint, maiores dignissimos, cupiditate illum neque alias quo tempora ullam
-                  incidunt sequi, voluptatem praesentium. Voluptates pariatur obcaecati nulla voluptate!
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header">
-                <h5 class="mb-0">
-                  <div href="#collapse2" data-toggle="collapse" data-parent="#accordion">
-                    <i class="fas fa-arrow-circle-down"></i> Get Inspired
-                </h5>
-              </div>
-              <div id="collapse2" class="collapse">
-                <div class="card-body">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem eum quis minima nisi tempora? Dicta
-                  aut et ut illum ea! Atque sint, maiores dignissimos, cupiditate illum neque alias quo tempora ullam
-                  incidunt sequi, voluptatem praesentium. Voluptates pariatur obcaecati nulla voluptate!
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header">
-                <h5 class="mb-0">
-                  <div href="#collapse3" data-toggle="collapse" data-parent="#accordion">
-                    <i class="fas fa-arrow-circle-down"></i> Open Your Mind
-                </h5>
-              </div>
-              <div id="collapse3" class="collapse">
-                <div class="card-body">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem eum quis minima nisi tempora? Dicta
-                  aut et ut illum ea! Atque sint, maiores dignissimos, cupiditate illum neque alias quo tempora ullam
-                  incidunt sequi, voluptatem praesentium. Voluptates pariatur obcaecati nulla voluptate!
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
+    <app-root></app-root>
   </section>
 
   <!-- AUTHORS -->
@@ -337,6 +345,10 @@
       </div>
     </div>
   </section>
+
+  <app-root></app-root>
+
+
 
   <footer id="main-footer" class="py-5 bg-primary text-white">
     <div class="container">
